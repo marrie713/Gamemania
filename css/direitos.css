@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-size: 62.5%;
+    font-family: 'Pathway Extreme', sans-serif;
+    text-rendering: optimizeLegibility;
+    background-color: #e3effc;
+}
+
+.container{
+    height: 100%;
+    
+}
+
+
+a{
+    font-size: 2rem;
+    color:#574ae2;
+}
+
+
+section{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+header{
+    height: 13rem;
+    width: 100%;
+    background-color: #01142e;
+    display: flex;
+    align-items: center;
+    gap: 20rem;
+}
+
+h1{
+    font-size: 4rem;
+}
+nav > a{   
+    color:#fff;
+    text-decoration: none;
+    font-size: 4rem;
+    padding: 2rem;
+}
+
+nav > a:hover{
+    color:#4F4F4F;
+    font-size: 4rem;
+}
+
+figure img{
+    border-radius: 100%;
+    margin-left: 30px;
+}
